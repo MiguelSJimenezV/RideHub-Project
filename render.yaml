@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: ridehub-backend
+    env: node
+    branch: main
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    envVars:
+      - key: MONGO_URI
+        value: "mongodb+srv://migueljimenez:davinci@chat.ulwph.mongodb.net/?retryWrites=true&w=majority&appName=chat"
+      - key: JWT_SECRET
+        value: "MiClaVeSeCrEtA"
+    autoDeploy: true

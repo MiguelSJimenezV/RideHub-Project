@@ -1,0 +1,16 @@
+# Dependencias de Node.js
+node_modules/
+
+# Archivos de configuración de entorno
+.env
+
+# Archivos de log
+*.log
+
+# Archivos generados por el compilador
+dist/
+build/
+
+# Archivos de sistema (macOS, Windows)
+.DS_Store
+Thumbs.db
