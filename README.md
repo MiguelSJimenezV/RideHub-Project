@@ -41,7 +41,7 @@ Este proyecto es un servidor backend construido con Express.js para manejar soli
 
 1. Clonar el repositorio:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/MiguelSJimenezV/RideHubBackendProject.git
    cd backend
    ```
 2. Instalar las dependencias:
